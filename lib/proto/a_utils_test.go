@@ -3,7 +3,7 @@ package proto_test
 import (
 	"testing"
 
-	"github.com/go-rod/rod/lib/proto"
+	"github.com/richardkovar/rod/lib/proto"
 	"github.com/ysmood/got"
 )
 

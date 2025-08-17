@@ -7,11 +7,11 @@ import (
 	"log"
 	"net"
 
-	"github.com/go-rod/rod"
-	"github.com/go-rod/rod/lib/cdp"
-	"github.com/go-rod/rod/lib/launcher"
 	"github.com/gobwas/ws"
 	"github.com/gobwas/ws/wsutil"
+	"github.com/richardkovar/rod"
+	"github.com/richardkovar/rod/lib/cdp"
+	"github.com/richardkovar/rod/lib/launcher"
 )
 
 func main() {

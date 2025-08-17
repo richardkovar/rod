@@ -1,9 +1,8 @@
 module github.com/richardkovar/rod
 
-go 1.21
+go 1.24
 
 require (
-	github.com/go-rod/rod v0.116.2
 	github.com/ysmood/fetchup v0.5.2
 	github.com/ysmood/goob v0.4.0
 	github.com/ysmood/got v0.41.0

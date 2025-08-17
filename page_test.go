@@ -16,12 +16,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/go-rod/rod"
-	"github.com/go-rod/rod/lib/cdp"
-	"github.com/go-rod/rod/lib/defaults"
-	"github.com/go-rod/rod/lib/devices"
-	"github.com/go-rod/rod/lib/proto"
-	"github.com/go-rod/rod/lib/utils"
+	"github.com/richardkovar/rod"
+	"github.com/richardkovar/rod/lib/cdp"
+	"github.com/richardkovar/rod/lib/defaults"
+	"github.com/richardkovar/rod/lib/devices"
+	"github.com/richardkovar/rod/lib/proto"
+	"github.com/richardkovar/rod/lib/utils"
 	"github.com/ysmood/gson"
 )
 

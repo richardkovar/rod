@@ -1,6 +1,6 @@
-module github.com/go-rod/rod/lib/examples/custom-websocket
+module github.com/richardkovar/rod/lib/examples/custom-websocket
 
-go 1.18
+go 1.24
 
 require github.com/gobwas/ws v1.1.0
 

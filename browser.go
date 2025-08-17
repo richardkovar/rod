@@ -14,12 +14,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/go-rod/rod/lib/cdp"
-	"github.com/go-rod/rod/lib/defaults"
-	"github.com/go-rod/rod/lib/devices"
-	"github.com/go-rod/rod/lib/launcher"
-	"github.com/go-rod/rod/lib/proto"
-	"github.com/go-rod/rod/lib/utils"
+	"github.com/richardkovar/rod/lib/cdp"
+	"github.com/richardkovar/rod/lib/defaults"
+	"github.com/richardkovar/rod/lib/devices"
+	"github.com/richardkovar/rod/lib/launcher"
+	"github.com/richardkovar/rod/lib/proto"
+	"github.com/richardkovar/rod/lib/utils"
 	"github.com/ysmood/goob"
 )
 
@@ -32,7 +32,7 @@ var (
 // Browser represents the browser.
 // It doesn't depends on file system, it should work with remote browser seamlessly.
 // To check the env var you can use to quickly enable options from CLI, check here:
-// https://pkg.go.dev/github.com/go-rod/rod/lib/defaults
+// https://pkg.go.dev/github.com/richardkovar/rod/lib/defaults
 type Browser struct {
 	// BrowserContextID is the id for incognito window
 	BrowserContextID proto.BrowserBrowserContextID
